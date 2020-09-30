@@ -2,7 +2,7 @@
 MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of meetup participants
 
 # Follow below steps after cloning the repo
-1. Create <b>.env</b> file in the root with below content. Replace <b>APP_KEY and db creds.
+1. Create <b>.env</b> file in the root with below content. Replace <b>APP_KEY and db creds.</b>
 
     APP_NAME=Lumen
     
