@@ -18,3 +18,7 @@ $router->group(['prefix'=>'api/v1'], function() use($router){
     $router->post('/participants', 'ParticipantController@create');
     $router->put('/participants/{id}', 'ParticipantController@update');
 });
+
+$router->get('/admin',['middleware' => 'admin.auth',  function(){
+    return view('admin');
+}]);
