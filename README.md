@@ -22,13 +22,13 @@ MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of
 
     DB_CONNECTION=mysql
     
-    <b>DB_HOST=127.0.0.1
+    <b>DB_HOST=127.0.0.1</b>
     
-    <b>DB_PORT=3306
+    <b>DB_PORT=3306</b>
     
-    <b>DB_DATABASE=
+    <b>DB_DATABASE=</b>
     
-    <b>DB_USERNAME=
+    <b>DB_USERNAME=</b>
     
     <b>DB_PASSWORD=</b>
 
