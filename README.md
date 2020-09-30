@@ -10,7 +10,7 @@ MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of
     
     APP_KEY=randomappkey
     
-    APP_DEBUG=true
+    APP_DEBUG=false
     
     APP_URL=http://localhost
     
