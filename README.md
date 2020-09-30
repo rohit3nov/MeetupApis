@@ -2,7 +2,7 @@
 MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of meetup participants
 
 # Follow below steps after cloning the repo
-1. Create ".env" file in the root with below content. Replace APP_KEY and db creds.
+1. Create <b>.env</b> file in the root with below content. Replace <b>APP_KEY and db creds.
 
     APP_NAME=Lumen
     
@@ -22,23 +22,24 @@ MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of
 
     DB_CONNECTION=mysql
     
-    DB_HOST=127.0.0.1
+    <b>DB_HOST=127.0.0.1
     
-    DB_PORT=3306
+    <b>DB_PORT=3306
     
-    DB_DATABASE=
+    <b>DB_DATABASE=
     
-    DB_USERNAME=
+    <b>DB_USERNAME=
     
-    DB_PASSWORD=
+    <b>DB_PASSWORD=</b>
 
     CACHE_DRIVER=file
     
     QUEUE_CONNECTION=sync
 
-2. Run "php artisan migrate" in root to create db schema
 
-3. Run "php -S localhost:8000 -t public" in root to start the server
+2. Run <b>php artisan migrate</b> in root to create db schema
+
+3. Run <b>php -S localhost:8000 -t public</b> in root to start the server
 
 3. Check below mentioned APIS with sample data
     
@@ -51,7 +52,3 @@ MeetupApis is nothing but a set of APIs used to list, create and update RSVPs of
     c) PUT http://localhost:8000/api/v1/participants/{id}
     
         {"name":"Aplha 2","age":29,"dob":"1990-01-01","profession":"employed","locality":"red sea lake","guests":1,"address":"saturn"}
-
-
-
-
